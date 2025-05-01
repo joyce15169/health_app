@@ -1,16 +1,26 @@
-# health_app
+🩺 專題名稱｜健康紀錄 App（Flutter + Firebase）
+這是一款結合 AI 與影像辨識模型的健康管理應用程式，為我於大學三年級期間所主導開發的專題作品。主要目的是協助使用者透過手機方便地記錄與管理健康數據，並藉由 AI 模型進行飲食熱量分析，提供個人化的健康建議與記帳功能，打造日常生活中實用的健康助理工具。
 
-A new Flutter project.
+💼 我的角色與貢獻
+擔任專案規劃師與開發者，提出專案構想並規劃應用情境與核心功能
 
-## Getting Started
+開發 App 各項功能，整合使用者輸入與後端資料互動
 
-This project is a starting point for a Flutter application.
+負責 UI/UX 設計與前端介面開發，提升操作流暢度與視覺一致性
 
-A few resources to get you started if this is your first Flutter project:
+目前應用程式仍持續開發中，未來將持續優化功能與使用體驗，提升 AI 模型準確率與使用者互動設計。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔧 使用技術
+Flutter：用於開發跨平台（iOS/Android）應用介面
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Firebase：作為後端服務平台，整合多項功能：
+
+使用者認證（Authentication）
+
+即時資料庫儲存（Cloud Firestore）
+
+圖片與模型檔案上傳（Firebase Storage）
+
+應用安全驗證（Firebase App Check）
+
+使用者行為分析與應用監控
